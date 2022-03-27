@@ -1,0 +1,7 @@
+@InProceedings{guo2020breaking,
+  title = {Breaking the Curse of Space Explosion: Towards Efficient NAS with Curriculum Search},
+  author = {Yong Guo and Yaofo Chen and Yin Zheng and Peilin Zhao and Jian Chen and Junzhou Huang and Mingkui Tan},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+  pages = {3822--3831},
+  year = {2020}
+}

@@ -1,0 +1,6 @@
+@article{guo2021pareto,
+  title={Pareto-Frontier-aware neural architecture generation for diverse budgets},
+  author={Yong Guo and Yaofo Chen and Yin Zheng and Qi Chen and Peilin Zhao and Jian Chen and Junzhou Huang and Mingkui Tan},
+  journal={arXiv preprint arXiv:2103.00219},
+  year={2021}
+}

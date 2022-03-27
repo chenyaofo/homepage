@@ -1,0 +1,7 @@
+@InProceedings{chen2021contrastive,
+  title = {Contrastive Neural Architecture Search with Neural Architecture Comparators},
+  author = {Yaofo Chen and Yong Guo and Qi Chen and Minli Li and Yaowei Wang and Wei Zeng and Mingkui Tan},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={9502--9511},
+  year = {2021}
+}

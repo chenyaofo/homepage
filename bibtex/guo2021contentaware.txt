@@ -1,0 +1,8 @@
+@article{guo2021contentaware,
+  title = {Content-aware Convolutional Neural Networks},
+  author = {Yong Guo and Yaofo Chen and Mingkui Tan and Kui Jia and Jian Chen and Jingdong Wang},
+  journal = {Neural Networks},
+  volume = {143},
+  pages = {657-668},
+  year = {2021}
+}
