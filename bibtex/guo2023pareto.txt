@@ -1,0 +1,7 @@
+@article{guo2022pareto,
+  title={Pareto-aware Neural Architecture Generation for Diverse Computational Budgets},
+  author={Yong Guo and Yaofo Chen and Yin Zheng and Qi Chen and Peilin Zhao and Jian Chen and Junzhou Huang and Mingkui Tan},
+  journal={The IEEE Conference on Computer Vision and Pattern Recognition Workshop},
+  year={2023},
+  pages={2247-2257}
+}

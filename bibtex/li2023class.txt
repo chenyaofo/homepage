@@ -1,0 +1,8 @@
+@article{李志鹏2023基于数据生成的类别均衡联邦学习,
+  title={基于数据生成的类别均衡联邦学习},
+  author={李志鹏 and 国雍 and 陈耀佛 and 王耀威 and 曾炜 and 谭明奎},
+  journal={计算机学报},
+  volume={46},
+  number={3},
+  year={2023},
+}

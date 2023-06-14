@@ -1,0 +1,6 @@
+@article{chen2022automatic,
+  title={Automatic Subspace Evoking for Efficient Neural Architecture Search},
+  author={Yaofo Chen and Yong Guo and Peihao Chen and Jingdong Wang and Yaowei Wang and Hengjie Song and Mingkui Tan},
+  journal={arXiv preprint},
+  year={2022}
+}

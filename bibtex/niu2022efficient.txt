@@ -1,0 +1,7 @@
+@InProceedings{niu2022efficient,
+  title = {Efficient Test-Time Model Adaptation without Forgetting},
+  author = {Shuaicheng Niu and Jiaxiang Wu and Yifan Zhang and Yaofo Chen and Shijian Zheng and Peilin Zhao and Mingkui Tan},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+  pages = {16888--16905},
+  year = {2022}
+}
