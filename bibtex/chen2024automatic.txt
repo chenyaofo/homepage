@@ -1,0 +1,6 @@
+@article{chen2022automatic,
+  title={Automated Dominative Subspace Mining for Efficient Neural Architecture Search},
+  author={Yaofo Chen and Yong Guo and Daihai Liao and Fanbing Lv and  Hengjie Song and James Tin-Yau Kwok and Mingkui Tan},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2024}
+}
