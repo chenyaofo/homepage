@@ -1,0 +1,6 @@
+@article{you2024towards,
+  title={Towards Long Video Understanding via Fine-detailed Video Story Generation},
+  author={You, Zeng and Wen, Zhiquan and Chen, Yaofo and Li, Xin and Zeng, Runhao and Wang, Yaowei and Tan, Mingkui},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2024}
+}

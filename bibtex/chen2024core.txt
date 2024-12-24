@@ -1,0 +1,6 @@
+@article{chen2024core,
+  title={Core Context Aware Attention for Long Context Language Modeling},
+  author={Chen, Yaofo and You, Zeng and Zhang, Shuhai and Li, Haokun and Li, Yirui and Wang, Yaowei and Tan, Mingkui},
+  journal={arXiv preprint arXiv:2412.12465},
+  year={2024}
+}
