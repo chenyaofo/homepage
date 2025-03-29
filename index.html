@@ -19,6 +19,18 @@
     <link rel=stylesheet href="assets/css/all.min.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .publication-container ul {
+            margin-bottom: 0.2em;
+        }
+
+        .toggle-link {
+            margin-top: 0;
+            margin-bottom: 1em;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <header class="site-header">
@@ -77,13 +89,18 @@
             <h2 id="about-me">About Me</h2>
 
             <p>
-                I am a post-doctoral researcher at with <a href="https://www2.scut.edu.cn/ft/"
-                target="_blank">School of Future Technology</a> at <a href="https://www.scut.edu.cn/"
-                target="_blank">South China University of Technology</a>, working with Prof. <a href="https://tanmingkui.github.io/" target="_blank">Mingkui Tan</a> and Prof. <a href="https://scholar.google.com/citations?user=pPsNBWUAAAAJ" target="_blank">Cen Chen</a>.
-                I received my bachelor and PHD degree from South China University of Technology in 2018 and 2024, respectively.
-                My research interests include <em>efficient architecture design</em> and <em>out-of-distribution generalization</em>.
+                I am a post-doctoral researcher at with <a href="https://www2.scut.edu.cn/ft/" target="_blank">School of
+                    Future Technology</a> at <a href="https://www.scut.edu.cn/" target="_blank">South China University
+                    of Technology</a>, working with Prof. <a href="https://tanmingkui.github.io/"
+                    target="_blank">Mingkui Tan</a> and Prof. <a
+                    href="https://scholar.google.com/citations?user=pPsNBWUAAAAJ" target="_blank">Cen Chen</a>.
+                I received my bachelor and PHD degree from South China University of Technology in 2018 and 2024,
+                respectively.
+                My research interests include <em>efficient architecture design</em> and <em>out-of-distribution
+                    generalization</em>.
                 I published papers in top venues, including ICML, ICLR, CVPR, AAAI, IEEE TCSVT and Neural Networks.
-                As of now, my research has been cited more than 834 times, as reported by <a href="https://scholar.google.com/citations?user=NHZCt2EAAAAJ" target="_blank">Google Scholar</a>.
+                As of now, my research has been cited more than 834 times, as reported by <a
+                    href="https://scholar.google.com/citations?user=NHZCt2EAAAAJ" target="_blank">Google Scholar</a>.
                 I served as the reviewer for several top-tier machine learning/computer vision conferences, including
                 ICLR, ICML, NeurIPS, CVPR, ICCV, ECCV and AAAI.
                 <br>
@@ -92,7 +109,7 @@
             <!-- <h2 id="education">Education & Research</h2> -->
 
             <!-- <ul> -->
-                <!-- <li>
+            <!-- <li>
                     <p>
                         <strong>BSc in Software Engineering, 2014 ~ 2018</strong>
                         <br />
@@ -106,7 +123,7 @@
                         <em>South China University of Technology (SCUT)</em>
                     </p>
                 </li> -->
-                <!-- <li>
+            <!-- <li>
                     <p>
                         <strong>Post-doctoral Researcher at School of Future Technology, Dec. 2024, ongoing</strong>
                         <br />
@@ -135,298 +152,370 @@
 
             <h2 id="news">News</h2>
 
-            <ul>
-                <li>
-                    2025.03: One collaborative paper accepted by IEEE TPAMI!
-                </li>
-                <li>
-                    2024.12: Successfully accomplished my PhD thesis defense!
-                </li>
-                <li>
-                    2024.12: One collaborative paper accepted by AAAI 2025!
-                </li>
-                <li>
-                    2024.12: One collaborative paper accepted by IEEE TCSVT!
-                </li>
-                <li>
-                    2024.04: One paper accepted by IEEE TCSVT!
-                </li>
-                <li>
-                    2024.01: One paper accepted by ICLR 2024!
-                </li>
-            </ul>
+            <div class="publication-container">
+                <ul>
+                    <li>
+                        2025.03: One collaborative paper accepted by IEEE TPAMI!
+                    </li>
+                    <li>
+                        2024.12: Successfully accomplished my PhD thesis defense!
+                    </li>
+                    <li>
+                        2024.12: One collaborative paper accepted by AAAI 2025!
+                    </li>
+                    <li>
+                        2024.12: One collaborative paper accepted by IEEE TCSVT!
+                    </li>
+                    <li>
+                        2024.04: One paper accepted by IEEE TCSVT!
+                    </li>
+                    <div class="collapsible-content" style="display: none;">
+                        <li>
+                            2024.01: One paper accepted by ICLR 2024!
+                        </li>
+                    </div>
+                </ul>
+                <a href="#" class="toggle-link">▽ Show More</a>
+            </div>
 
             <h2 id="publications">Publications</h2>
-            
+
             <h3>๏ Conference Paper</h2>
-            <ul>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Contrastive_Neural_Architecture_Search_With_Neural_Architecture_Comparators_CVPR_2021_paper.html"
-                                target="_blank">
-                                Contrastive Neural Architecture Search with Neural Architecture Comparators
-                            </a>
-                        </strong>
-                        <br />
-                        <u><em><strong>Yaofo Chen</strong></em></u>, Yong Guo, Qi Chen, Minli Li, Wei Zeng, Yaowei Wang,
-                        Mingkui Tan
-                        <br /> <strong>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021)</strong>
-                        <br />
-                        <a href="papers/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators.pdf" target="_blank">PDF</a> /
-                        <a href="papers/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-supp.pdf" target="_blank">Supp</a> /
-                        <a href="posters/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-poster.pdf" target="_blank">Poster</a> /
-                        <a href="slides/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-slides.pdf" target="_blank">Slides</a> /
-                        <a href="https://github.com/chenyaofo/CTNAS" target="_blank">Code</a> /
-                        <a href="bibtex/chen2021contrastive.txt" target="_blank">BibTeX</a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://openreview.net/forum?id=vePdNU3u6n" target="_blank">
-                                Towards Robust and Efficient Cloud-Edge Elastic Model Adaptation via Selective Entropy Distillation
-                            </a>
-                        </strong>
-                        <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Shuaicheng Niu, Yaowei Wang, Shoukai Xu, Hengjie Song, Mingkui Tan
-                        <br />
-                        <strong>International Conference on Learning Representations (ICLR 2024)</strong>
-                        <br />
-                        <a href="papers/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation.pdf" target="_blank">PDF</a> /
-                        <a href="posters/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation-poster.pdf" target="_blank">Poster</a> /
-                        <a href="slides/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation-slides.pdf" target="_blank">Slides</a> /
-                        <a href="https://github.com/chenyaofo/CEMA" target="_blank">Code</a> /
-                        <a href="bibtex/chen2022towards.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://proceedings.mlr.press/v119/guo20b.html" target="_blank">
-                                Breaking the Curse of Space Explosion: Towards Efficient NAS with Curriculum Search
-                            </a>
-                        </strong>
-                        <br /> Yong Guo<sup>*</sup>, <u><em><strong>Yaofo Chen<sup>*</sup></strong></em></u>,
-                        Yin Zheng, Peilin Zhao, Jian Chen, Junzhou Huang, Mingkui Tan
-                        <br /> <strong>Proceedings of the International Conference on Machine Learning (ICML
-                            2020)</strong>
-                        <br />
-                        <a href="papers/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search.pdf" target="_blank">PDF</a> /
-                        <a href="papers/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-supp.pdf" target="_blank">Supp</a> /
-                        <a href="posters/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-poster.pdf" target="_blank">Poster</a> /
-                        <a href="slides/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-slides.pdf" target="_blank">Slides</a> /
-                        <a href="https://github.com/guoyongcs/CNAS" target="_blank">Code</a> /
-                        <a href="bibtex/guo2020breaking.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://openreview.net/forum?id=g2YraF75Tj" target="_blank">
-                                Towards Stable Test-time Adaptation in Dynamic Wild World
-                            </a>
-                        </strong>
-                        <br /> Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Zhiquan Wen, <u><em><strong>Yaofo Chen</strong></em></u>, Peilin Zhao, Mingkui Tan
-                        <br />
-                        <strong>International Conference on Learning Representations (<u><em>ICLR 2023 oral</em></u>)</strong>
-                        <br />
-                        <a href="papers/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world.pdf" target="_blank">PDF</a> /
-                        <a href="posters/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world-poster.pdf" target="_blank">Poster</a> /
-                        <a href="slides/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world-slides.pdf" target="_blank">Slides</a> /
-                        <a href="https://github.com/mr-eggplant/SAR" target="_blank">Code</a> /
-                        <a href="bibtex/niu2022towards.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://proceedings.mlr.press/v162/niu22a.html" target="_blank">
-                                Efficient Test-Time Model Adaptation without Forgetting
-                            </a>
-                        </strong>
-                        <br /> Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, <u><em><strong>Yaofo Chen</strong></em></u>,
-                        Shijian Zheng, Peilin Zhao, Mingkui Tan
-                        <br /> <strong>Proceedings of the International Conference on Machine Learning (ICML
-                            2022)</strong>
-                        <br />
-                        <a href="papers/niu-efficient-test-time-model-adaptation-without-forgetting.pdf" target="_blank">PDF</a> / 
-                        <a href="posters/niu-efficient-test-time-model-adaptation-without-forgetting-poster.png" target="_blank">Poster</a> / 
-                        <a href="slides/niu-efficient-test-time-model-adaptation-without-forgetting-slides.pdf" target="_blank">Slides</a> /
-                        <a href="https://github.com/mr-eggplant/EATA" target="_blank">Code</a> /
-                        <a href="bibtex/niu2022efficient.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="#" target="_blank">
-                                Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers
-                            </a>
-                        </strong>
-                        <br /> Qi Deng, Shuaicheng Niu, Ronghao Zhang, <u><em><strong>Yaofo Chen</strong></em></u>, Runhao Zeng, Jian Chen, Xiping Hu
-                        <br />
-                        <strong>AAAI Conference on Artificial Intelligence (AAAI 2025)</strong>
-                        <br /> 
-                        <a href="#" target="_blank">PDF(To Be Released)</a> /
-                        <a href="https://github.com/keikeiqi/MGTTA" target="_blank">Code</a> /
-                        <a href="#" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Guo_Pareto-Aware_Neural_Architecture_Generation_for_Diverse_Computational_Budgets_CVPRW_2023_paper.html"
-                                target="_blank">
-                                Pareto-aware Neural Architecture Generation for Diverse Computational Budgets
-                            </a>
-                        </strong>
-                        <br /> Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Yin Zheng, Qi Chen, Peilin Zhao,
-                        Jian Chen, Junzhou Huang, Mingkui Tan
-                        <br /> <strong>IEEE Conference on Computer Vision and Pattern Recognition Workshop (CVPRW
-                            2023)</strong>
-                        <br />
-                        <a href="papers/guo-pareto-aware-neural-architecture-generation-for-diverse-computational-budgets.pdf" target="_blank">PDF</a> /
-                        <a href="papers/guo-pareto-aware-neural-architecture-generation-for-diverse-computational-budgets-supp.pdf" target="_blank">Supp</a> /
-                        <a href="https://github.com/guoyongcs/PNAG" target="_blank">Code</a> /
-                        <a href="bibtex/guo2023pareto.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-            </ul>
+                <div class="publication-container">
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Contrastive_Neural_Architecture_Search_With_Neural_Architecture_Comparators_CVPR_2021_paper.html"
+                                        target="_blank">
+                                        Contrastive Neural Architecture Search with Neural Architecture Comparators
+                                    </a>
+                                </strong>
+                                <br />
+                                <u><em><strong>Yaofo Chen</strong></em></u>, Yong Guo, Qi Chen, Minli Li, Wei Zeng,
+                                Yaowei Wang,
+                                Mingkui Tan
+                                <br /> <strong>IEEE Conference on Computer Vision and Pattern Recognition (CVPR
+                                    2021)</strong>
+                                <br />
+                                <a href="papers/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators.pdf"
+                                    target="_blank">PDF</a> /
+                                <a href="papers/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-supp.pdf"
+                                    target="_blank">Supp</a> /
+                                <a href="posters/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-poster.pdf"
+                                    target="_blank">Poster</a> /
+                                <a href="slides/chen-contrastive-neural-architecture-search-with-neural-architecture-comparators-slides.pdf"
+                                    target="_blank">Slides</a> /
+                                <a href="https://github.com/chenyaofo/CTNAS" target="_blank">Code</a> /
+                                <a href="bibtex/chen2021contrastive.txt" target="_blank">BibTeX</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>
+                                    <a href="https://openreview.net/forum?id=vePdNU3u6n" target="_blank">
+                                        Towards Robust and Efficient Cloud-Edge Elastic Model Adaptation via Selective
+                                        Entropy Distillation
+                                    </a>
+                                </strong>
+                                <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Shuaicheng Niu, Yaowei Wang, Shoukai
+                                Xu, Hengjie Song, Mingkui Tan
+                                <br />
+                                <strong>International Conference on Learning Representations (ICLR 2024)</strong>
+                                <br />
+                                <a href="papers/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation.pdf"
+                                    target="_blank">PDF</a> /
+                                <a href="posters/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation-poster.pdf"
+                                    target="_blank">Poster</a> /
+                                <a href="slides/chen-towards-robust-and-efficient-cloud-edge-elastic-model-adaptation-via-selective-entropy-distillation-slides.pdf"
+                                    target="_blank">Slides</a> /
+                                <a href="https://github.com/chenyaofo/CEMA" target="_blank">Code</a> /
+                                <a href="bibtex/chen2022towards.txt" target="_blank">BibTeX</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>
+                                    <a href="https://proceedings.mlr.press/v119/guo20b.html" target="_blank">
+                                        Breaking the Curse of Space Explosion: Towards Efficient NAS with Curriculum
+                                        Search
+                                    </a>
+                                </strong>
+                                <br /> Yong Guo<sup>*</sup>, <u><em><strong>Yaofo Chen<sup>*</sup></strong></em></u>,
+                                Yin Zheng, Peilin Zhao, Jian Chen, Junzhou Huang, Mingkui Tan
+                                <br /> <strong>Proceedings of the International Conference on Machine Learning (ICML
+                                    2020)</strong>
+                                <br />
+                                <a href="papers/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search.pdf"
+                                    target="_blank">PDF</a> /
+                                <a href="papers/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-supp.pdf"
+                                    target="_blank">Supp</a> /
+                                <a href="posters/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-poster.pdf"
+                                    target="_blank">Poster</a> /
+                                <a href="slides/guo-breaking-the-curse-of-space-explosion-towards-efficient-NAS-with-curriculum-search-slides.pdf"
+                                    target="_blank">Slides</a> /
+                                <a href="https://github.com/guoyongcs/CNAS" target="_blank">Code</a> /
+                                <a href="bibtex/guo2020breaking.txt" target="_blank">BibTeX</a>
+                            </p>
+                        </li>
+                        <div class="collapsible-content" style="display: none;">
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://openreview.net/forum?id=g2YraF75Tj" target="_blank">
+                                            Towards Stable Test-time Adaptation in Dynamic Wild World
+                                        </a>
+                                    </strong>
+                                    <br /> Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Zhiquan Wen, <u><em><strong>Yaofo
+                                                Chen</strong></em></u>, Peilin Zhao, Mingkui Tan
+                                    <br />
+                                    <strong>International Conference on Learning Representations (<u><em>ICLR 2023
+                                                oral</em></u>)</strong>
+                                    <br />
+                                    <a href="papers/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world.pdf"
+                                        target="_blank">PDF</a> /
+                                    <a href="posters/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world-poster.pdf"
+                                        target="_blank">Poster</a> /
+                                    <a href="slides/niu-towards-stable-test-time-adaptation-in-dynamic-wild-world-slides.pdf"
+                                        target="_blank">Slides</a> /
+                                    <a href="https://github.com/mr-eggplant/SAR" target="_blank">Code</a> /
+                                    <a href="bibtex/niu2022towards.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://proceedings.mlr.press/v162/niu22a.html" target="_blank">
+                                            Efficient Test-Time Model Adaptation without Forgetting
+                                        </a>
+                                    </strong>
+                                    <br /> Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, <u><em><strong>Yaofo
+                                                Chen</strong></em></u>,
+                                    Shijian Zheng, Peilin Zhao, Mingkui Tan
+                                    <br /> <strong>Proceedings of the International Conference on Machine Learning (ICML
+                                        2022)</strong>
+                                    <br />
+                                    <a href="papers/niu-efficient-test-time-model-adaptation-without-forgetting.pdf"
+                                        target="_blank">PDF</a> /
+                                    <a href="posters/niu-efficient-test-time-model-adaptation-without-forgetting-poster.png"
+                                        target="_blank">Poster</a> /
+                                    <a href="slides/niu-efficient-test-time-model-adaptation-without-forgetting-slides.pdf"
+                                        target="_blank">Slides</a> /
+                                    <a href="https://github.com/mr-eggplant/EATA" target="_blank">Code</a> /
+                                    <a href="bibtex/niu2022efficient.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="#" target="_blank">
+                                            Learning to Generate Gradients for Test-Time Adaptation via Test-Time
+                                            Training
+                                            Layers
+                                        </a>
+                                    </strong>
+                                    <br /> Qi Deng, Shuaicheng Niu, Ronghao Zhang, <u><em><strong>Yaofo
+                                                Chen</strong></em></u>, Runhao Zeng, Jian Chen, Xiping Hu
+                                    <br />
+                                    <strong>AAAI Conference on Artificial Intelligence (AAAI 2025)</strong>
+                                    <br />
+                                    <a href="#" target="_blank">PDF(To Be Released)</a> /
+                                    <a href="https://github.com/keikeiqi/MGTTA" target="_blank">Code</a> /
+                                    <a href="#" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://openaccess.thecvf.com/content/CVPR2023W/NAS/html/Guo_Pareto-Aware_Neural_Architecture_Generation_for_Diverse_Computational_Budgets_CVPRW_2023_paper.html"
+                                            target="_blank">
+                                            Pareto-aware Neural Architecture Generation for Diverse Computational
+                                            Budgets
+                                        </a>
+                                    </strong>
+                                    <br /> Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Yin Zheng, Qi Chen,
+                                    Peilin
+                                    Zhao,
+                                    Jian Chen, Junzhou Huang, Mingkui Tan
+                                    <br /> <strong>IEEE Conference on Computer Vision and Pattern Recognition Workshop
+                                        (CVPRW
+                                        2023)</strong>
+                                    <br />
+                                    <a href="papers/guo-pareto-aware-neural-architecture-generation-for-diverse-computational-budgets.pdf"
+                                        target="_blank">PDF</a> /
+                                    <a href="papers/guo-pareto-aware-neural-architecture-generation-for-diverse-computational-budgets-supp.pdf"
+                                        target="_blank">Supp</a> /
+                                    <a href="https://github.com/guoyongcs/PNAG" target="_blank">Code</a> /
+                                    <a href="bibtex/guo2023pareto.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                        </div>
+                    </ul>
+                    <a href="#" class="toggle-link">▽ Show More</a>
+                </div>
 
-            <h3>๏ Journal Paper</h2>
+                <h3>๏ Journal Paper</h2>
+                    <div class="publication-container">
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://doi.org/10.1109/TCSVT.2024.3395463" target="_blank">
+                                            Automated Dominative Subspace Mining for Efficient Neural Architecture
+                                            Search
+                                        </a>
+                                    </strong>
+                                    <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Yong Guo, Daihai Liao, Fanbing
+                                    Lv,
+                                    Hengjie Song,
+                                    James Tin-Yau Kwok, Mingkui Tan
+                                    <br />
+                                    <strong>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT
+                                        2024)</strong>
+                                    <br />
+                                    <a href="papers/chen-automated-dominative-subspace-mining-for-efficient-neural-architecture-search.pdf"
+                                        target="_blank">PDF</a> /
+                                    <a href="https://github.com/chenyaofo/ASE-NAS" target="_blank">Code</a> /
+                                    <a href="bibtex/chen2024automatic.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://doi.org/10.1016/j.neunet.2021.06.030" target="_blank">
+                                            Content-aware Convolutional Neural Networks
+                                        </a>
+                                    </strong>
+                                    <br /> Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Mingkui Tan, Kui Jia,
+                                    Jian
+                                    Chen,
+                                    Jingdong Wang
+                                    <br />
+                                    <strong>Neural Networks (2021)</strong>
+                                    <br />
+                                    <a href="papers/guo-content-aware-convolutional-neural-networks.pdf"
+                                        target="_blank">PDF</a> /
+                                    <a href="https://github.com/guoyongcs/CAC" target="_blank">Code</a> /
+                                    <a href="bibtex/guo2021contentaware.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
 
-            <ul>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://doi.org/10.1109/TCSVT.2024.3395463" target="_blank">
-                                Automated Dominative Subspace Mining for Efficient Neural Architecture Search
-                            </a>
-                        </strong>
-                        <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Yong Guo, Daihai Liao, Fanbing Lv, Hengjie Song, James Tin-Yau Kwok, Mingkui Tan
-                        <br />
-                        <strong>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT 2024)</strong>
-                        <br />
-                        <a href="papers/chen-automated-dominative-subspace-mining-for-efficient-neural-architecture-search.pdf" target="_blank">PDF</a> /
-                        <a href="https://github.com/chenyaofo/ASE-NAS" target="_blank">Code</a> /
-                        <a href="bibtex/chen2024automatic.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://doi.org/10.1016/j.neunet.2021.06.030" target="_blank">
-                                Content-aware Convolutional Neural Networks
-                            </a>
-                        </strong>
-                        <br /> Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Mingkui Tan, Kui Jia, Jian Chen, Jingdong Wang
-                        <br />
-                        <strong>Neural Networks (2021)</strong>
-                        <br />
-                        <a href="papers/guo-content-aware-convolutional-neural-networks.pdf" target="_blank">PDF</a> /
-                        <a href="https://github.com/guoyongcs/CAC" target="_blank">Code</a> /
-                        <a href="bibtex/guo2021contentaware.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                
-                <li>
-                    <p>
-                        <strong>
-                            <a href="#" target="_blank">
-                                Uncertainty-Calibrated Test-Time Model Adaptation without Forgetting
-                            </a>
-                        </strong>
-                        <br /> Mingkui Tan, Guohao Chen, Jiaxiang Wu, Yifan Zhang, <u><em><strong>Yaofo Chen</strong></em></u>, Peilin Zhao, Shuaicheng Niu
-                        <br />
-                        <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2025)</strong>
-                        <br />
-                        <a href="#" target="_blank">PDF (To Be Released)</a> /
-                        <a href="#" target="_blank">Code (To Be Released)</a> /
-                        <a href="#" target="_blank">BibTeX (To Be Released)</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://doi.org/10.1109/TCSVT.2024.3514820" target="_blank">
-                                Towards Long Video Understanding via Fine-detailed Video Story Generation
-                            </a>
-                        </strong>
-                        <br /> Zeng You, Zhiquan Wen, <u><em><strong>Yaofo Chen</strong></em></u>, Xin Li, Runhao Zeng, Yaowei Wang, Mingkui Tan
-                        <br />
-                        <strong>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT 2024)</strong>
-                        <br />
-                        <a href="papers/you-towards-long-video-understanding-via-fine-detailed-video-story-generation.pdf" target="_blank">PDF</a> /
-                        <a href="#" target="_blank">Code(To Be Released)</a> /
-                        <a href="bibtex/you2024towards.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="http://cjc.ict.ac.cn/qwjs/view.asp?id=5746" target="_blank">
-                                Class-Balanced Federated Learning Based on Data Generation
-                            </a>
-                        </strong>
-                        <br /> ZhiPeng Li, Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Yaowei Wang, Wei Zeng,
-                        Mingkui Tan
-                        <br />
-                        <strong>Chinese Journal of Computers (2022)</strong>
-                        <br />
-                        <a href="papers/li-class-balanced-federated-learning-based-on-data-generation.pdf" target="_blank">PDF</a> /
-                        <a href="https://github.com/lizhipengcs/CBFL" target="_blank">Code</a> 
-                        <!-- <a href="bibtex/li2023class.txt" target="_blank">BibTeX</a> / -->
-                    </p>
-                </li>
-            </ul>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="#" target="_blank">
+                                            Uncertainty-Calibrated Test-Time Model Adaptation without Forgetting
+                                        </a>
+                                    </strong>
+                                    <br /> Mingkui Tan, Guohao Chen, Jiaxiang Wu, Yifan Zhang, <u><em><strong>Yaofo
+                                                Chen</strong></em></u>, Peilin Zhao, Shuaicheng Niu
+                                    <br />
+                                    <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI
+                                        2025)</strong>
+                                    <br />
+                                    <a href="#" target="_blank">PDF (To Be Released)</a> /
+                                    <a href="#" target="_blank">Code (To Be Released)</a> /
+                                    <a href="#" target="_blank">BibTeX (To Be Released)</a>
+                                </p>
+                            </li>
+                            <div class="collapsible-content" style="display: none;">
+                                <li>
+                                    <p>
+                                        <strong>
+                                            <a href="https://doi.org/10.1109/TCSVT.2024.3514820" target="_blank">
+                                                Towards Long Video Understanding via Fine-detailed Video Story
+                                                Generation
+                                            </a>
+                                        </strong>
+                                        <br /> Zeng You, Zhiquan Wen, <u><em><strong>Yaofo Chen</strong></em></u>, Xin
+                                        Li,
+                                        Runhao Zeng,
+                                        Yaowei Wang, Mingkui Tan
+                                        <br />
+                                        <strong>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT
+                                            2024)</strong>
+                                        <br />
+                                        <a href="papers/you-towards-long-video-understanding-via-fine-detailed-video-story-generation.pdf"
+                                            target="_blank">PDF</a> /
+                                        <a href="#" target="_blank">Code(To Be Released)</a> /
+                                        <a href="bibtex/you2024towards.txt" target="_blank">BibTeX</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>
+                                            <a href="http://cjc.ict.ac.cn/qwjs/view.asp?id=5746" target="_blank">
+                                                Class-Balanced Federated Learning Based on Data Generation
+                                            </a>
+                                        </strong>
+                                        <br /> ZhiPeng Li, Yong Guo, <u><em><strong>Yaofo Chen</strong></em></u>, Yaowei
+                                        Wang,
+                                        Wei Zeng,
+                                        Mingkui Tan
+                                        <br />
+                                        <strong>Chinese Journal of Computers (2022)</strong>
+                                        <br />
+                                        <a href="papers/li-class-balanced-federated-learning-based-on-data-generation.pdf"
+                                            target="_blank">PDF</a> /
+                                        <a href="https://github.com/lizhipengcs/CBFL" target="_blank">Code</a>
+                                        <!-- <a href="bibtex/li2023class.txt" target="_blank">BibTeX</a> / -->
+                                    </p>
+                                </li>
+                            </div>
+                        </ul>
+                        <a href="#" class="toggle-link">▽ Show More</a>
+                    </div>
 
-            <h3>๏ Pre-print Paper</h2>
-            
-            <ul>
-                <li>
-                    <p>
-                        <strong>
-                            <a href="https://arxiv.org/abs/2412.12465" target="_blank">
-                                Core Context Aware Attention for Long Context Language Modeling
-                            </a>
-                        </strong>
-                        <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Zeng You, Shuhai Zhang, Haokun Li, Yirui Li, Yaowei Wang, Mingkui Tan
-                        <br />
-                        <strong>arXiv:2412.12465, 2024.</strong>
-                        <br />
-                        <a href="papers/chen-core-context-aware-attention-for-long-context-language-modeling.pdf" target="_blank">PDF</a> /
-                        <!-- <a href="https://github.com/chenyaofo/ASE-NAS" target="_blank">Code</a> / -->
-                        <a href="bibtex/chen2024core.txt" target="_blank">BibTeX</a> 
-                    </p>
-                </li>
-            </ul>
-            
-            <h2 id="services">Academic Services</h2>
-            <ul>
-                <li>
-                    International Conference on Learning Representations (ICLR), Reviewer 2022-2025
-                </li>
-                <li>
-                    International Conference on Machine Learning (ICML), Reviewer 2021-2025
-                </li>
-                <li>
-                    Conference on Neural Information Processing Systems (NeurIPS), Reviewer 2021-2025
-                </li>
-                <li>
-                    Conference on Computer Vision and Pattern Recognition (CVPR), Reviewer 2022-2025
-                </li>
-                <li>
-                    International Conference on Computer Vision (ICCV), Reviewer 2023-2025
-                </li>
-                <li>
-                    European Conference on Computer Vision (ECCV), Reviewer 2022-2024
-                </li>
-                <li>
-                    AAAI Conference on Artificial Intelligence (AAAI), Reviewer 2025
-                </li>
-            </ul>
+                    <h3>๏ Pre-print Paper</h2>
 
-            <!-- <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>
+                                        <a href="https://arxiv.org/abs/2412.12465" target="_blank">
+                                            Core Context Aware Attention for Long Context Language Modeling
+                                        </a>
+                                    </strong>
+                                    <br /> <u><em><strong>Yaofo Chen</strong></em></u>, Zeng You, Shuhai Zhang, Haokun
+                                    Li, Yirui Li,
+                                    Yaowei Wang, Mingkui Tan
+                                    <br />
+                                    <strong>arXiv:2412.12465, 2024.</strong>
+                                    <br />
+                                    <a href="papers/chen-core-context-aware-attention-for-long-context-language-modeling.pdf"
+                                        target="_blank">PDF</a> /
+                                    <!-- <a href="https://github.com/chenyaofo/ASE-NAS" target="_blank">Code</a> / -->
+                                    <a href="bibtex/chen2024core.txt" target="_blank">BibTeX</a>
+                                </p>
+                            </li>
+                        </ul>
+
+                        <h2 id="services">Academic Services</h2>
+                        <ul>
+                            <li>
+                                International Conference on Learning Representations (ICLR), Reviewer 2022-2025
+                            </li>
+                            <li>
+                                International Conference on Machine Learning (ICML), Reviewer 2021-2025
+                            </li>
+                            <li>
+                                Conference on Neural Information Processing Systems (NeurIPS), Reviewer 2021-2025
+                            </li>
+                            <li>
+                                Conference on Computer Vision and Pattern Recognition (CVPR), Reviewer 2022-2025
+                            </li>
+                            <li>
+                                International Conference on Computer Vision (ICCV), Reviewer 2023-2025
+                            </li>
+                            <li>
+                                European Conference on Computer Vision (ECCV), Reviewer 2022-2024
+                            </li>
+                            <li>
+                                AAAI Conference on Artificial Intelligence (AAAI), Reviewer 2025
+                            </li>
+                        </ul>
+
+                        <!-- <p>
                 Collaborators:
                 <a href="http://www.guoyongcs.com/" target="_blank">Yong Guo (HUAWEI Inc.)</a>,
                 <a href="https://niushuaicheng.cn/" target="_blank">Shuaicheng Niu (NTU)</a>,
@@ -439,9 +528,9 @@
                 <a href="https://tanmingkui.github.io/" target="_blank">Mingkui Tan (SCUT)</a>
             </p> -->
 
-            <!-- <br> -->
+                        <!-- <br> -->
 
-            <!-- <h2 id="open-source">Open-source Projects (Selected)</h2>
+                        <!-- <h2 id="open-source">Open-source Projects (Selected)</h2>
 
             <ul>
                 <li>
@@ -466,7 +555,7 @@
                         including vgg, resnet, mobilenetv2, shufflenetv2 and so on.
                     </p>
                 </li> -->
-            <!-- <li>
+                        <!-- <li>
                     <p>
                         <strong>
                             <a href="https://github.com/chenyaofo/deep-learning-model-deploy-tutorial">
@@ -476,7 +565,7 @@
                         frameworks.
                     </p>
                 </li> -->
-            <!-- <li>
+                        <!-- <li>
                     <p>
                         <strong>
                             <a href="https://github.com/chenyaofo/statistical-learning-method-numpy-impl">
@@ -510,9 +599,9 @@
                         but not limited to papers, datasets, codebases, frameworks and etc.
                     </p>
                 </li> -->
-            <!-- </ul> -->
+                        <!-- </ul> -->
 
-            <!-- <br> -->
+                        <!-- <br> -->
 
         </section>
         <footer>
@@ -539,6 +628,25 @@
     </div>
     <script src="assets/js/scale.fix.js"></script>
 
+    <script>
+        document.querySelectorAll('.toggle-link').forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                const container = event.target.closest('.publication-container');
+                const hiddenItems = container.querySelectorAll('.collapsible-content');
+
+                hiddenItems.forEach(item => {
+                    if (item.style.display === 'none') {
+                        item.style.display = 'list-item';
+                        link.textContent = '△ Show Less';
+                    } else {
+                        item.style.display = 'none';
+                        link.textContent = '▽ Show More';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
