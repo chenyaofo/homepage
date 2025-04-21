@@ -1,0 +1,6 @@
+@inproceedings{deng2025learning,
+    title={Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers}, booktitle={AAAI Conference on Artificial Intelligence}, 
+    author={Deng, Qi and Niu, Shuaicheng and Zhang, Ronghao and Chen, Yaofo and Zeng, Runhao and Chen, Jian and Hu, Xiping},
+    year={2025},
+    pages={16235-16243}
+}
